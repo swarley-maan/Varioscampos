@@ -8,4 +8,5 @@
     <string name="email">Email</string>
     <string name="telefone">Telefone</string>
     <string name="button">Button</string>
+    <string name="informacao">Informação:</string>
 </resources>
