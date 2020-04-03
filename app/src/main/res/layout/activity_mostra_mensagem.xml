@@ -43,10 +43,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/telefone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome"
+        tools:text="@string/telefone" />
 
     <TextView
         android:id="@+id/textViewEmail"
@@ -57,10 +57,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTelefone" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTelefone"
+        tools:text="@string/email" />
 
     <TextView
         android:id="@+id/textViewIdade"
@@ -71,10 +71,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/idade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
+        tools:text="@string/idade" />
 
     <TextView
         android:id="@+id/textViewPeso"
@@ -85,10 +85,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/peso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewIdade" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewIdade"
+        tools:text="@string/peso" />
 
     <TextView
         android:id="@+id/textViewAltura"
@@ -99,8 +99,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/altura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPeso" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPeso"
+        tools:text="@string/altura" />
 </androidx.constraintlayout.widget.ConstraintLayout>

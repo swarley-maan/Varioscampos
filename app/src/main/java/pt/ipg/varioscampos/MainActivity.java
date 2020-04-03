@@ -29,6 +29,22 @@ public class MainActivity extends AppCompatActivity {
         String telefone=editTextTelefone.getText().toString();
         intent.putExtra("TELEFONE",telefone);
 
+        EditText editTextEmail= (EditText)findViewById(R.id.editTextEmail);
+        String email=editTextEmail.getText().toString();
+        intent.putExtra("EMAIL",email);
+
+        EditText editTextIdade= (EditText)findViewById(R.id.editTextIdade);
+        String idade=editTextIdade.getText().toString();
+        intent.putExtra("IDADE",idade);
+
+        EditText editTextPeso= (EditText)findViewById(R.id.editTextPeso);
+        String peso=editTextPeso.getText().toString();
+        intent.putExtra("PESO",peso);
+
+        EditText editTextAltura= (EditText)findViewById(R.id.editTextAltura);
+        String altura=editTextAltura.getText().toString();
+        intent.putExtra("ALTURA",altura);
+
         startActivity(intent);
     }
 }
