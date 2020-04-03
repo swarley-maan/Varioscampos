@@ -23,5 +23,21 @@ public class MostraMensagemActivity extends AppCompatActivity {
         TextView textViewTelefone = (TextView) findViewById(R.id.textViewTelefone);
         textViewTelefone.setText(Telefone);
 
+        String email = intent.getStringExtra("EMAIL");
+        TextView textViewEmail = (TextView) findViewById(R.id.textViewEmail);
+        textViewTelefone.setText(email);
+
+        String idade = intent.getStringExtra("IDADE");
+        TextView textViewIdade = (TextView) findViewById(R.id.textViewIdade);
+        textViewTelefone.setText(idade);
+
+        String peso = intent.getStringExtra("PESO");
+        TextView textViewPeso = (TextView) findViewById(R.id.textViewPeso);
+        textViewTelefone.setText(peso);
+
+        String altura = intent.getStringExtra("ALTURA");
+        TextView textViewAltura = (TextView) findViewById(R.id.textViewAltura);
+        textViewTelefone.setText(altura);
+
     }
 }
